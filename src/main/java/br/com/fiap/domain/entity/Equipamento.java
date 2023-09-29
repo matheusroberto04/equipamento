@@ -27,6 +27,9 @@ public class Equipamento {
         this.descrição = descrição;
     }
 
+    public Equipamento(Long id, String nome) {
+    }
+
     public Long getId() {
         return id;
     }
